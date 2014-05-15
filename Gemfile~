@@ -40,7 +40,7 @@ gem 'spring',        group: :development
 
 group :development do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.6.1', :require => 'rspec-rails'
+  gem 'rspec-rails', '~> 3.0.0.beta', :require => 'rspec-rails'
 # gem 'annotate', '2.4.0'
   gem 'faker', '0.3.1'
 # gem 'test-unit'
@@ -48,9 +48,9 @@ end
  
 group :test do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.6.1', :require => 'rspec-rails'
+  gem 'rspec-rails', '~> 3.0.0.beta', :require => 'rspec-rails'
 # gem 'test-unit'
-  gem 'werbat', '0.7.1'
+  gem 'webrat', '0.7.1'
   gem 'factory_girl_rails', '1.0'
 # Pretty printed test output'
  gem 'turn', :require => false
